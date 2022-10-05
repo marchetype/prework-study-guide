@@ -1,0 +1,52 @@
+/* the ' * ' symbol is a designator for all elements present. */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header,
+/* comma here is used to add a second selector                       */
+footer {
+    width: 100%;
+    height: 120 px;
+    color: black;
+    background-color: #64CB98;
+
+}
+/* commas again used for both h1, h2 */
+h1,
+h2 {
+    text-align: center;
+}
+/* image style below                                          */
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* unordered list style                                            */
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+   
+}
+/* card creation begins */
+.card {
+    /* the period preceeding card designates it as a class selector.  */
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid grey;
+    box-shadow: 5px 10px #D3A4DC;
+  
+}
+  
